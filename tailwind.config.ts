@@ -6,7 +6,12 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  plugins: [],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,5 +19,4 @@ export default {
       },
     },
   },
-  plugins: [],
 } satisfies Config;
